@@ -1,0 +1,99 @@
+/* Reset CSS untuk memulai dari layout yang bersih */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #1c334b;
+}
+
+/* Styling untuk daftar berita */
+.news-list {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.news-list li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.news-list a {
+    text-decoration: none;
+    color: #1a2e43;
+}
+
+.news-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.news-list p {
+    color: #888;
+    font-size: 0.9em;
+}
+
+/* Styling untuk halaman detail berita */
+.main-image {
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.publish-date {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content {
+    font-size: 1.2em;
+    line-height: 1.7;
+    color: #444;
+}
+
+.content p {
+    margin-bottom: 15px;
+}
+
+.back-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #182a3e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
